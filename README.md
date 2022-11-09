@@ -1,6 +1,6 @@
 # <Your-Project-Title>
 
-[/github/license/:user/:repo](https://img.shields.io/github/license/<Github-Username>/<Repository>)
+[/github/license/:user/:repo](https://img.shields.io/github/license/MattThurn/ReadMe-Generator)
 ## Description
 
 
