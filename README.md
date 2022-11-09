@@ -2,17 +2,13 @@
 ![License](https://img.shields.io/github/license/MattThurn/ReadMe-Generator)
 ## Description
 
-    A fast and easy way to make a ReadMe file.
-
-## Links
-
-![video of walkthrough](https://app.castify.com/view/de1366a7-6a05-4661-896b-2bbd3c30185b)
+    A way to make a fast and easy ReadMe file.
+    [walkthrough](Video/node-walkthrough.webm)
     
 ## Table of Contents (Optional)
     
 - [ReadMe-Generator](#readme-generator)
   - [Description](#description)
-  - [Links](#links)
   - [Table of Contents (Optional)](#table-of-contents-optional)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -23,15 +19,16 @@
 
 ## Installation
 
-     use 'npm i'
+    1. Use 'npm init -y'
+    2. Use 'npm i inquirer@8.2.4'
 
 ## Usage
 
-    run 'node index.js' in your terminal.
+    Run 'node index.js' in terminal.
 
 ## License
     
-    MIT license
+    MIT License
     
 ## How to Contribute
 
