@@ -3,7 +3,7 @@
 ## Description
 
     A way to make a fast and easy ReadMe file.
-    [walkthrough](Video/node-walkthrough.webm)
+[walk-through](Video/node-walkthrough.webm)
     
 ## Table of Contents (Optional)
     
