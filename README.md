@@ -1,6 +1,6 @@
 # <Your-Project-Title>
 
-/github/license/:user/:repo
+[/github/license/:user/:repo](https://img.shields.io/github/license/<Github-Username>/<Repository>)
 ## Description
 
 
