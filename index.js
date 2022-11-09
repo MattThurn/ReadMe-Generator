@@ -40,8 +40,13 @@ inquirer
     },
     {
         type:'input',
-        name:'questions',
-        message:'Please add links for questions.'
+        name:'git',
+        message:'What is your github username?'
+    },
+    {
+        type:'input',
+        name:'email',
+        message:'What is your email?'
     },
 
 ])
@@ -51,5 +56,51 @@ console.log('response :>> ', response);
 })
 
 function writeReadMe(data){
-    const {title, description, installation, usage, license, contributing, test, questions} = data;
+    const {title, description, installation, usage, license, contributing, test, git, email} = data;
+    const readMe = `# ${title}
+![License](https://img.shields.io/github/license/${git}/${title})
+## Description
+
+    ${description}
+    
+## Table of Contents (Optional)
+    
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribute](#contribute)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+
+    ${installation}
+
+## Usage
+
+    ${usage}
+
+## License
+    
+    ${license}
+    
+## How to Contribute
+
+    ${contributing}
+    
+## Tests
+
+    ${test}
+    
+## Questions
+    Github: https://github.com/${git}
+    Email: ${email}`
+
+    fs.writeFile('README.md', readMe, (err) => {
+        if (err){
+            console.log('error :>> ', error);
+        } else {
+            console.log('Success!')
+        }
+    })
 }
