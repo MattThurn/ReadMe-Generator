@@ -1,38 +1,43 @@
-# asd
-![License](https://img.shields.io/github/license/asd/asd)
+# ReadMe-Generator
+![License](https://img.shields.io/github/license/MattThurn/ReadMe-Generator)
 ## Description
 
-    asd
+    A way to make a fast and easy ReadMe file.
+[walk-through](Video/node-walkthrough.webm)
     
 ## Table of Contents (Optional)
     
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contribute](#contribute)
-- [Tests](#tests)
-- [Questions](#questions)
+- [ReadMe-Generator](#readme-generator)
+  - [Description](#description)
+  - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [How to Contribute](#how-to-contribute)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
 ## Installation
 
-    asd
+    1. Use 'npm init -y'
+    2. Use 'npm i inquirer@8.2.4'
 
 ## Usage
 
-    ad
+    Run 'node index.js' in terminal.
 
 ## License
     
-    ad
+    MIT License
     
 ## How to Contribute
 
-    asd
+    Use the application.
     
 ## Tests
 
-    ads
+    Use the application.
     
 ## Questions
-    Github: https://github.com/asd
-    Email: asd
+    Github: https://github.com/MattThurn
+    Email: matt.thurn@icloud.com
